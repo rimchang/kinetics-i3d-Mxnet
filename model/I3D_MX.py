@@ -11,7 +11,7 @@ class InceptionI3d_MX:
     def BasicConv3d(self, data, num_filter, kernel, stride=(1, 1, 1), pad=(0, 0, 0), name='Conv3d_1a_7x7'):
         conv = mx.sym.Convolution(data=data, num_filter=num_filter, kernel=kernel,
                                   stride=stride, pad=pad, no_bias=True, name='%s/conv_3d/' % name)
-        bn = mx.sym.BatchNorm(data=conv, eps=1e-3, momentum=0.001, name='%s/batch_norm/' % name)
+        bn = mx.sym.BatchNorm(data=conv, eps=1e-3, momentum=0.001,fix_gamma=True, name='%s/batch_norm/' % name)
         act = mx.sym.Activation(data=bn, act_type='relu', name='%s/relu/' % name)
 
         return act
