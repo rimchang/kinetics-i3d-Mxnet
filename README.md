@@ -16,10 +16,13 @@ you can convert tensorflow model to mxnet
 you can evaluate sample 
 
 ```
-./multi-evaluate.py
+./multi-evaluate.sh
 
 ```
 
+I3D_MX_Simple is simplifed version, I3D_MX_TF_full, I3D_MX_TF_valid are Tensorflow Same Padding version, check [kinetics_i3d_pytorch(hassony2)](https://github.com/hassony2/kinetics_i3d_pytorch)
+
+I3D_MX_TF_full, I3D_MX_TF_valid are diffrent pooling_convention, check [issue4](https://github.com/hassony2/kinetics_i3d_pytorch/issues/4)
 
 There is a slight difference from the original model. you can compare original model output with pytorch model output in out directory
 
@@ -89,3 +92,4 @@ Reference:
 [kinetics-i3d](https://github.com/deepmind/kinetics-i3d)  
 [kinetics-i3d-Pytorch](https://github.com/rimchang/kinetics-i3d-Pytorch)
 [tensorflow-model-zoo.torch](https://github.com/Cadene/tensorflow-model-zoo.torch)
+[kinetics_i3d_pytorch(hassony2)](https://github.com/hassony2/kinetics_i3d_pytorch)
