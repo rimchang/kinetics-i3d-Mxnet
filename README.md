@@ -90,6 +90,6 @@ Top classes and probabilities
 Reference:
 
 [kinetics-i3d](https://github.com/deepmind/kinetics-i3d)  
-[kinetics-i3d-Pytorch](https://github.com/rimchang/kinetics-i3d-Pytorch)
-[tensorflow-model-zoo.torch](https://github.com/Cadene/tensorflow-model-zoo.torch)
-[kinetics_i3d_pytorch(hassony2)](https://github.com/hassony2/kinetics_i3d_pytorch)
+[kinetics-i3d-Pytorch](https://github.com/rimchang/kinetics-i3d-Pytorch)  
+[tensorflow-model-zoo.torch](https://github.com/Cadene/tensorflow-model-zoo.torch)  
+[kinetics_i3d_pytorch(hassony2)](https://github.com/hassony2/kinetics_i3d_pytorch)  
