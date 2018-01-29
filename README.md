@@ -51,31 +51,36 @@ Top classes and probabilities
 1.13884e-13 12.0101 tap dancing
 ```
 
-### Mxnet Converted Model (imagenet_joint.txt)
+### Mxnet Converted Model (I3D_MX_TF_full/imagenet_joint.txt)
 ```
-Norm of logits: 140.496323
+RGB checkpoint restored
+RGB data loaded, shape= (1, 3, 79, 224, 224)
+flow checkpoint restored
+FLOW data loaded, shape= (1, 2, 79, 224, 224)
+Norm of logits: 142.029556
 
 Top classes and probabilities
-1.0 42.8406 playing cricket
-2.52364e-08 25.3456 hurling (sport)
-1.62932e-08 24.9081 catching or throwing baseball
-3.08371e-09 23.2434 catching or throwing softball
-1.28435e-09 22.3676 hitting baseball
-8.13336e-11 19.6081 playing tennis
-3.45132e-11 18.7509 playing kickball
-3.37848e-11 18.7296 playing squash or racquetball
-3.83346e-12 16.5533 shooting goal (soccer)
-2.92695e-12 16.2835 hammer throw
-1.03302e-12 15.242 pumping fist
-4.33065e-13 14.3727 applauding
-2.47362e-13 13.8127 tap dancing
-2.40988e-13 13.7865 throwing ball
-2.15395e-13 13.6743 throwing discus
-1.96578e-13 13.5829 celebrating
-1.89317e-13 13.5452 playing badminton
-1.63867e-13 13.4009 headbutting
-1.6123e-13 13.3846 dodgeball
-1.00397e-13 12.9109 golf putting
+1.0 44.2655 playing cricket
+1.66801e-09 24.0539 hurling (sport)
+4.99325e-10 22.8478 catching or throwing baseball
+1.86202e-10 21.8613 catching or throwing softball
+1.28303e-10 21.4889 hitting baseball
+1.07527e-11 19.0097 playing tennis
+5.45804e-12 18.3316 playing kickball
+2.96073e-12 17.7199 playing squash or racquetball
+7.68403e-13 16.3711 shooting goal (soccer)
+1.37728e-13 14.652 hammer throw
+1.04936e-13 14.3801 throwing discus
+7.07885e-14 13.9864 dodgeball
+6.75171e-14 13.9391 golf putting
+5.38292e-14 13.7126 shot put
+4.89977e-14 13.6185 javelin throw
+3.99016e-14 13.4132 pumping fist
+3.34444e-14 13.2366 celebrating
+3.21526e-14 13.1972 passing American football (not in game)
+2.45824e-14 12.9288 sword fighting
+2.37701e-14 12.8952 throwing ball
+
 ```
 
 
