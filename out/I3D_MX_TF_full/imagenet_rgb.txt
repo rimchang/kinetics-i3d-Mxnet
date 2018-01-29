@@ -1,0 +1,25 @@
+RGB checkpoint restored
+RGB data loaded, shape= (1, 3, 79, 224, 224)
+Norm of logits: 85.477379
+
+Top classes and probabilities
+0.999999 26.7355 playing cricket
+4.39603e-07 12.0981 playing kickball
+3.59115e-07 11.8958 catching or throwing baseball
+1.45475e-07 10.9922 catching or throwing softball
+9.06659e-08 10.5194 shooting goal (soccer)
+6.67626e-08 10.2133 hitting baseball
+6.17041e-08 10.1345 golf putting
+3.10445e-08 9.44762 throwing discus
+2.93214e-08 9.39051 hurling (sport)
+2.63212e-08 9.28257 triple jump
+1.59309e-08 8.78046 jogging
+1.41347e-08 8.66083 javelin throw
+7.95743e-09 8.0863 hurdling
+6.84504e-09 7.93572 golf driving
+6.84073e-09 7.93509 skateboarding
+6.32415e-09 7.85657 headbutting
+6.00402e-09 7.80463 dodgeball
+5.8482e-09 7.77833 long jump
+5.72226e-09 7.75656 shot put
+5.62225e-09 7.73893 marching

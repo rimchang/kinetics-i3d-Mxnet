@@ -4,8 +4,9 @@ import argparse
 import os
 import subprocess
 import sys
+
 sys.path.append(os.path.join(os.path.dirname(__file__),'../'))
-from model.I3D_MX import InceptionI3d_MX
+from model import I3D_MX_Simple, I3D_MX_TF
 
 
 ######################################################################
@@ -136,7 +137,10 @@ if __name__ == '__main__':
                         help='source directory')
     parser.add_argument('--modality', type=str, default='flow_imagenet',
                         help='rgb_scratch , rgb_imagenet, flow_scratch, flow_imagenet')
-    
+    parser.add_argument('--model', type=str, default='I3D_MX_TF',
+                        help='I3D_MX_TF or I3D_MX_Simple')
+    parser.add_argument('--pooling_convention', type=str, default='full',
+                        help='full or valid')
     args = parser.parse_args()
     
     if args.target_dir is None:
@@ -160,7 +164,7 @@ if __name__ == '__main__':
     dump_dir = args.dump_dir
 
     # create a trainable module on GPU 0
-    i3d = InceptionI3d_MX(modality=modality)
+    i3d = eval(args.model + "." + args.model)(modality=modality, pooling_convention=args.pooling_convention)
 
     predictions = i3d.get_I3D()
     mod = mx.mod.Module(symbol=predictions, context=mx.cpu())

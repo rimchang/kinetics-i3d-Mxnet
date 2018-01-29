@@ -1,0 +1,25 @@
+flow checkpoint restored
+FLOW data loaded, shape= (1, 2, 79, 224, 224)
+Norm of logits: 68.767441
+
+Top classes and probabilities
+0.935151 17.5301 playing cricket
+0.053198 14.6634 hurling (sport)
+0.00317767 11.8455 playing squash or racquetball
+0.0025674 11.6322 playing tennis
+0.00179716 11.2756 hitting baseball
+0.00130026 10.9519 catching or throwing baseball
+0.00119696 10.8691 catching or throwing softball
+0.00118962 10.863 sword fighting
+0.000106764 8.45222 playing badminton
+3.24073e-05 7.25998 hammer throw
+2.47962e-05 6.99229 catching or throwing frisbee
+2.47005e-05 6.98842 dribbling basketball
+2.05515e-05 6.80453 tai chi
+1.93877e-05 6.74623 playing ice hockey
+1.45568e-05 6.45965 playing basketball
+1.30719e-05 6.35206 throwing ball
+1.16107e-05 6.23352 playing kickball
+1.10256e-05 6.18181 dodgeball
+1.07381e-05 6.15539 pumping fist
+9.93203e-06 6.07736 pole vault

@@ -1,0 +1,27 @@
+RGB checkpoint restored
+RGB data loaded, shape= (1, 3, 79, 224, 224)
+flow checkpoint restored
+FLOW data loaded, shape= (1, 2, 79, 224, 224)
+Norm of logits: 167.763168
+
+Top classes and probabilities
+0.999967 35.7695 playing cricket
+2.27209e-05 25.0773 hurling (sport)
+7.93375e-06 24.0251 hitting baseball
+1.16859e-06 22.1098 shooting goal (soccer)
+5.58617e-07 21.3717 catching or throwing baseball
+1.40201e-07 19.9893 playing badminton
+1.11344e-07 19.7589 catching or throwing softball
+3.34304e-08 18.5557 playing tennis
+2.62391e-08 18.3135 sword fighting
+1.71734e-08 17.8896 playing squash or racquetball
+1.14235e-08 17.4819 passing American football (in game)
+1.11949e-08 17.4617 cheerleading
+9.24637e-09 17.2705 robot dancing
+7.9352e-09 17.1176 playing basketball
+7.4837e-09 17.059 breakdancing
+5.31042e-09 16.7159 playing volleyball
+4.91703e-09 16.639 dodgeball
+4.5044e-09 16.5513 tap dancing
+3.02748e-09 16.154 high kick
+2.75129e-09 16.0583 pumping fist

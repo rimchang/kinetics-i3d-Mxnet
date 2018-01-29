@@ -2,8 +2,6 @@ import mxnet as mx
 import argparse
 import numpy as np
 
-from convert.convert_mxnet import load
-from model.I3D_MX import InceptionI3d_MX
 
 _IMAGE_SIZE = 224
 _NUM_CLASSES = 400
@@ -70,7 +68,7 @@ if __name__ == '__main__':
         rgb_sample = mx.nd.array(np.load(_SAMPLE_PATHS['rgb']).transpose(0, 4, 1, 2 ,3))
         data_iter = mx.io.NDArrayIter(rgb_sample)
         print('RGB data loaded, shape=', str(rgb_sample.shape))
-
+        #print(rgb_sample)
         rgb_logits = mod.predict(data_iter)
         #rgb_logits = mx.nd.mean(rgb_logits, axis=2)
 
@@ -92,9 +90,11 @@ if __name__ == '__main__':
         flow_sample = mx.nd.array(np.load(_SAMPLE_PATHS['flow']).transpose(0, 4, 1, 2 ,3))
         data_iter = mx.io.NDArrayIter(flow_sample)
         print('FLOW data loaded, shape=', str(flow_sample.shape))
-
+        #print(flow_sample)
         flow_logits = mod.predict(data_iter)
         #flow_logits = mx.nd.mean(flow_logits, axis=2)
+
+
 
     out_logits = rgb_logits + flow_logits
     out_logits = mx.nd.mean(out_logits, axis=2)
