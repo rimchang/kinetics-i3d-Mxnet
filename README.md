@@ -16,6 +16,8 @@ you can convert tensorflow model to mxnet
 you can evaluate sample 
 
 ```
+# ./
+
 ./multi-evaluate.sh
 
 ```
