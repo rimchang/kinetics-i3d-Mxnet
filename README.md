@@ -24,7 +24,7 @@ you can evaluate sample
 
 I3D_MX_Simple is simplifed Padding version, I3D_MX_TF_full, I3D_MX_TF_valid are Tensorflow Same Padding version, check [kinetics_i3d_pytorch(hassony2)](https://github.com/hassony2/kinetics_i3d_pytorch)
 
-I3D_MX_TF_full, I3D_MX_TF_valid are diffrent pooling_convention, check [issue4](https://github.com/hassony2/kinetics_i3d_pytorch/issues/4)
+I3D_MX_TF_full, I3D_MX_TF_valid are using diffrent pooling_convention, check [issue4](https://github.com/hassony2/kinetics_i3d_pytorch/issues/4)
 
 There is a slight difference from the original model. you can compare original model output with pytorch model output in out directory
 
